@@ -34,8 +34,8 @@ def pushover_handler(message):
     conn = HTTPSConnection("api.pushover.net:443")
     conn.request("POST", "/1/messages.json",
                  urllib.urlencode({
-                     "token": 'a3f18ih6r2xwrteqqepjjz58jxzio5',
-                     "user": 'uks4fn12b445hebp4nvmopia1hob84',
+                     "token": '----',
+                     "user": '----',
                      "message": "Hello",
                      "sound": 'pushover',
                      "priority": 0,
